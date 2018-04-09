@@ -5,11 +5,11 @@
     
   <url>
     <loc>http://www.javablogs.cn/20180409/hello-world.html</loc>
-    <lastmod>2018-04-09T08:47:53.786Z</lastmod>
+    <lastmod>2018-04-09T08:51:03.731Z</lastmod>
     <data>
         <display>
         <title>Hello World</title>
-        <pubTime>2018-04-09T08:47:53.799Z</pubTime>
+        <pubTime>2018-04-09T08:51:03.747Z</pubTime>
         
         <tag>testing</tag>
          
@@ -17,6 +17,9 @@
          
          
            
+             
+              <breadCrumb title="测试" url="http://www.javablogs.cn/categories/%E6%B5%8B%E8%AF%95/"/>
+          
         </display>
     </data>
     </url>
