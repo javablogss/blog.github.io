@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title></title>
+    <title><![CDATA[Mybatis使用insert之后返回主键]]></title>
     <url>%2F20180409%2Fmybatis%E4%BD%BF%E7%94%A8insert%E4%B9%8B%E5%90%8E%E8%BF%94%E5%9B%9E%E4%B8%BB%E9%94%AE.html</url>
-    <content type="text"><![CDATA[title: Mybatis使用insert之后返回主键tags: Mysql Mybatiscategories: “Mybatis”copyright: true 1.在xml文件里面加入 1&lt;insert id=&quot;insert&quot; parameterType=&quot;com.goldsins.b2c.entity.insurance.InsuranceOrder&quot; useGeneratedKeys=&quot;true&quot; keyProperty=&quot;id&quot;&gt; 2.直接使用对象.getid就能获取到返回来的主键]]></content>
+    <content type="text"><![CDATA[1.在xml文件里面加入 1&lt;insert id=&quot;insert&quot; parameterType=&quot;com.goldsins.b2c.entity.insurance.InsuranceOrder&quot; useGeneratedKeys=&quot;true&quot; keyProperty=&quot;id&quot;&gt; 2.直接使用对象.getid就能获取到返回来的主键]]></content>
+      <categories>
+        <category>Mybatis</category>
+      </categories>
+      <tags>
+        <tag>Mysql</tag>
+        <tag>Mybatis</tag>
+      </tags>
   </entry>
 </search>
