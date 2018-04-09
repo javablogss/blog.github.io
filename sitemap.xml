@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.javablogs.cn/categories/index.html</loc>
+    
+    <lastmod>2018-04-09T08:58:18.280Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.javablogs.cn/tags/index.html</loc>
     
     <lastmod>2018-04-09T08:56:45.143Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>http://www.javablogs.cn/20180409/hello-world.html</loc>
     
     <lastmod>2018-04-09T08:54:33.365Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.javablogs.cn/categories/index.html</loc>
-    
-    <lastmod>2018-04-09T08:22:21.352Z</lastmod>
     
   </url>
   
