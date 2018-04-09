@@ -3,22 +3,26 @@
 
 
     
-    
-    
-    
-    
   <url>
-    <loc>http://www.javablogs.cn/20180317/hello-world.html</loc>
-    <lastmod>2018-03-17T06:12:57.226Z</lastmod>
+    <loc>http://www.javablogs.cn/20180409/hello-world.html</loc>
+    <lastmod>2018-04-09T08:47:53.786Z</lastmod>
     <data>
         <display>
         <title>Hello World</title>
-        <pubTime>2018-03-17T06:12:57.235Z</pubTime>
+        <pubTime>2018-04-09T08:47:53.799Z</pubTime>
         
+        <tag>testing</tag>
+         
+        <tag>test</tag>
+         
          
            
         </display>
     </data>
     </url>
 
+    
+    
+    
+    
 </urlset>

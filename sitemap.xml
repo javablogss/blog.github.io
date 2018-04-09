@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.javablogs.cn/20180409/hello-world.html</loc>
+    
+    <lastmod>2018-04-09T08:47:53.786Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.javablogs.cn/categories/index.html</loc>
+    
+    <lastmod>2018-04-09T08:22:21.352Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.javablogs.cn/tags/index.html</loc>
+    
+    <lastmod>2018-04-09T08:20:08.285Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.javablogs.cn/links/index.html</loc>
     
     <lastmod>2018-03-17T12:43:56.900Z</lastmod>
@@ -9,30 +30,9 @@
   </url>
   
   <url>
-    <loc>http://www.javablogs.cn/tags/index.html</loc>
-    
-    <lastmod>2018-03-17T12:37:02.568Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://www.javablogs.cn/about/index.html</loc>
     
     <lastmod>2018-03-17T12:36:29.419Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.javablogs.cn/categories/index.html</loc>
-    
-    <lastmod>2018-03-17T12:35:24.398Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.javablogs.cn/20180317/hello-world.html</loc>
-    
-    <lastmod>2018-03-17T06:12:57.226Z</lastmod>
     
   </url>
   
