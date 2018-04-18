@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[解决Hexo服务在CentOS 7.2 关闭链接工具就自动停止服务的问题]]></title>
+    <url>%2F20180418%2FHexo%E6%9C%8D%E5%8A%A1%E5%9C%A8CentOS7.2%E5%85%B3%E9%97%AD%E9%93%BE%E6%8E%A5%E5%B7%A5%E5%85%B7%E5%B0%B1%E8%87%AA%E5%8A%A8%E5%81%9C%E6%AD%A2%E6%9C%8D%E5%8A%A1.html</url>
+    <content type="text"><![CDATA[问题：本博客是部署CentOS 7.2上，启动4000端口，但是一关闭ssh链接工具 Hexo 的服务也跟着被关掉试了几个方法123nohup hexo servernohup hexo server &amp;hexo server &amp; 以上三个方法都不能解决这个问题 解决方案：在web目录下新建一个shell脚本脚本内容以下代码： 12#!/bin/bashnohup hexo server &gt;&gt;./hexo.log &amp; 然后执行./脚本名称]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Mybatis使用insert之后返回主键]]></title>
     <url>%2F20180409%2Fmybatis%E4%BD%BF%E7%94%A8insert%E4%B9%8B%E5%90%8E%E8%BF%94%E5%9B%9E%E4%B8%BB%E9%94%AE.html</url>
     <content type="text"><![CDATA[1.在xml文件里面加入 1&lt;insert id=&quot;insert&quot; parameterType=&quot;com.goldsins.b2c.entity.insurance.InsuranceOrder&quot; useGeneratedKeys=&quot;true&quot; keyProperty=&quot;id&quot;&gt; 2.直接使用对象.getid就能获取到返回来的主键]]></content>
