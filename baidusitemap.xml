@@ -4,6 +4,50 @@
 
     
   <url>
+    <loc>http://www.javablogs.cn/20180427/JAX%E7%94%A8form%E8%A1%A8%E5%8D%95%E6%8F%90%E4%BA%A4%E4%BC%A0%E8%BE%93%E6%95%B0%E6%8D%AE%E5%92%8C%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6.html</loc>
+    <lastmod>2018-05-06T07:00:37.450Z</lastmod>
+    <data>
+        <display>
+        <title>AJAX用form表单提交传输数据和上传文件</title>
+        <pubTime>2018-04-27T02:25:00.000Z</pubTime>
+        
+        <tag>Ajax</tag>
+         
+        <tag>图片上传</tag>
+         
+         
+           
+             
+              <breadCrumb title="AJAX" url="http://www.javablogs.cn/categories/AJAX/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.javablogs.cn/20180409/mybatis%E4%BD%BF%E7%94%A8insert%E4%B9%8B%E5%90%8E%E8%BF%94%E5%9B%9E%E4%B8%BB%E9%94%AE.html</loc>
+    <lastmod>2018-04-27T02:24:32.694Z</lastmod>
+    <data>
+        <display>
+        <title>Mybatis使用insert之后返回主键</title>
+        <pubTime>2018-04-09T09:31:00.000Z</pubTime>
+        
+        <tag>Mysql</tag>
+         
+        <tag>Mybatis</tag>
+         
+         
+           
+             
+              <breadCrumb title="Mybatis" url="http://www.javablogs.cn/categories/Mybatis/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://www.javablogs.cn/20180418/Hexo%E6%9C%8D%E5%8A%A1%E5%9C%A8CentOS7.2%E5%85%B3%E9%97%AD%E9%93%BE%E6%8E%A5%E5%B7%A5%E5%85%B7%E5%B0%B1%E8%87%AA%E5%8A%A8%E5%81%9C%E6%AD%A2%E6%9C%8D%E5%8A%A1.html</loc>
     <lastmod>2018-04-18T02:35:45.799Z</lastmod>
     <data>
@@ -23,28 +67,6 @@
     </url>
 
     
-    
-  <url>
-    <loc>http://www.javablogs.cn/20180409/mybatis%E4%BD%BF%E7%94%A8insert%E4%B9%8B%E5%90%8E%E8%BF%94%E5%9B%9E%E4%B8%BB%E9%94%AE.html</loc>
-    <lastmod>2018-04-09T09:31:03.556Z</lastmod>
-    <data>
-        <display>
-        <title>Mybatis使用insert之后返回主键</title>
-        <pubTime>2018-04-09T09:31:03.570Z</pubTime>
-        
-        <tag>Mysql</tag>
-         
-        <tag>Mybatis</tag>
-         
-         
-           
-             
-              <breadCrumb title="Mybatis" url="http://www.javablogs.cn/categories/Mybatis/"/>
-          
-        </display>
-    </data>
-    </url>
-
     
     
     

@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[AJAX用form表单提交传输数据和上传文件]]></title>
+    <url>%2F20180427%2FJAX%E7%94%A8form%E8%A1%A8%E5%8D%95%E6%8F%90%E4%BA%A4%E4%BC%A0%E8%BE%93%E6%95%B0%E6%8D%AE%E5%92%8C%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6.html</url>
+    <content type="text"><![CDATA[Java后台用对象接收，如果没有上传文件可以直接$(“#表单id”).serialize() 但是如果有上传的文件这样就不行，得先用formData对象来组装它 1var formData = new FormData(document.getElementById(&quot;表单id&quot;));//表单id AJAX代码123456789101112$.ajax(&#123; url: url, type: &apos;POST&apos;, data: formData, async: false, cache: false, contentType: false, processData: false, success: function (resMsg) &#123; &#125; &#125;);]]></content>
+      <categories>
+        <category>AJAX</category>
+      </categories>
+      <tags>
+        <tag>Ajax</tag>
+        <tag>图片上传</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[解决Hexo服务在CentOS 7.2 关闭链接工具就自动停止服务的问题]]></title>
     <url>%2F20180418%2FHexo%E6%9C%8D%E5%8A%A1%E5%9C%A8CentOS7.2%E5%85%B3%E9%97%AD%E9%93%BE%E6%8E%A5%E5%B7%A5%E5%85%B7%E5%B0%B1%E8%87%AA%E5%8A%A8%E5%81%9C%E6%AD%A2%E6%9C%8D%E5%8A%A1.html</url>
     <content type="text"><![CDATA[问题：本博客是部署CentOS 7.2上，启动4000端口，但是一关闭ssh链接工具 Hexo 的服务也跟着被关掉试了几个方法123nohup hexo servernohup hexo server &amp;hexo server &amp; 以上三个方法都不能解决这个问题 解决方案：在web目录下新建一个shell脚本脚本内容以下代码： 12#!/bin/bashnohup hexo server &gt;&gt;./hexo.log &amp; 然后执行./脚本名称]]></content>
