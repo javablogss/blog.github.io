@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[JAVA编写腾讯云短信发送接口]]></title>
+    <url>%2F20180506%2FJAVA%E7%BC%96%E5%86%99%E8%85%BE%E8%AE%AF%E4%BA%91%E7%9F%AD%E4%BF%A1%E5%8F%91%E9%80%81%E5%92%8C%E9%AA%8C%E8%AF%81%E6%8E%A5%E5%8F%A3.html</url>
+    <content type="text"><![CDATA[创建一个maven项目 ​ 在pom.xml里面添加腾讯短信云接口的依赖 123456789101112&lt;dependency&gt; &lt;groupId&gt;com.github.qcloudsms&lt;/groupId&gt; &lt;artifactId&gt;qcloudsms&lt;/artifactId&gt; &lt;version&gt;1.0.2&lt;/version&gt;&lt;/dependency&gt; &lt;!-- https://mvnrepository.com/artifact/com.alibaba/fastjson --&gt; &lt;!--用于做返回结果转换--&gt; &lt;dependency&gt; &lt;groupId&gt;com.alibaba&lt;/groupId&gt; &lt;artifactId&gt;fastjson&lt;/artifactId&gt; &lt;version&gt;1.2.47&lt;/version&gt; &lt;/dependency&gt; 创建一个测试类CloudSMSTest 12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152import com.alibaba.fastjson.JSONObject;import com.github.qcloudsms.SmsSingleSender;import com.github.qcloudsms.SmsSingleSenderResult;import com.github.qcloudsms.httpclient.HTTPException;import java.io.IOException;public class CloudSMSTest &#123; //appid 官网获取替换成自己的 private static int AppId = 11111; //appkey 官网获取替换成自己的 private static String AppKey = &quot;asdasd&quot;; //短信有效期(单位：秒) private static int ValidityTime = 150; public String sendMessage(String phone) &#123; /*产生六位数验证码*/ String smsMessageCode = String.valueOf((int) ((Math.random() * 9 + 1) * 100000)); /*配置短信接口*/ SmsSingleSender ssender = new SmsSingleSender(AppId, AppKey); /*结果*/ String result = null; try &#123; /*装载验证码发送*/ /*这里填写的要和短信模板相同。不然会报错*/ SmsSingleSenderResult send = ssender.send(0, &quot;86&quot;, phone, &quot;您的验证码为&quot; + smsMessageCode + &quot;，请于&quot; + ValidityTime + &quot;秒内填写。如非本人操作，请忽略本短信。&quot;, &quot;&quot;, &quot;&quot;); /*转换返回结果*/ JSONObject json = JSONObject.parseObject(send.toString()); String state = json.getString(&quot;result&quot;); /*判断是否发送成功*/ if (&quot;0&quot;.equals(state)) &#123; result = &quot;短信发送成功！&quot;; System.out.println(&quot;短信发送成功！&quot;); &#125; else &#123; result = &quot;短信发送失败！&quot;; System.out.println(&quot;短信发送失败！&quot;); &#125; &#125; catch (HTTPException e) &#123; e.printStackTrace(); &#125; catch (IOException e) &#123; e.printStackTrace(); &#125; return result ; &#125; public static void main(String[] args) &#123; CloudSMSTest cloudSMSTest = new CloudSMSTest(); cloudSMSTest.sendMessage(&quot;&quot;);//填写接收短信的号码 &#125;&#125; 测试结果]]></content>
+      <categories>
+        <category>JAVA</category>
+      </categories>
+      <tags>
+        <tag>JAVA</tag>
+        <tag>短信接口</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[AJAX用form表单提交传输数据和上传文件]]></title>
     <url>%2F20180427%2FJAX%E7%94%A8form%E8%A1%A8%E5%8D%95%E6%8F%90%E4%BA%A4%E4%BC%A0%E8%BE%93%E6%95%B0%E6%8D%AE%E5%92%8C%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6.html</url>
     <content type="text"><![CDATA[Java后台用对象接收，如果没有上传文件可以直接$(“#表单id”).serialize() 但是如果有上传的文件这样就不行，得先用formData对象来组装它 1var formData = new FormData(document.getElementById(&quot;表单id&quot;));//表单id AJAX代码123456789101112$.ajax(&#123; url: url, type: &apos;POST&apos;, data: formData, async: false, cache: false, contentType: false, processData: false, success: function (resMsg) &#123; &#125; &#125;);]]></content>
